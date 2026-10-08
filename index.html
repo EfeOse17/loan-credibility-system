@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Loan Credibility System</title>
+</head>
+<body>
+    <div class="card">
+        <h1>Loan Credibility System</h1>
+
+        <p>Please enter your details to check your loan credibility:</p>
+
+        <div class="eligibility-credentials">
+                <label>Name:</label>
+                <input 
+                    type="text"
+                    id="applicantName"
+                >
+
+                <label>Age:</label>
+                <input
+                    type="text"
+                    id="applicantAge"
+                >
+
+                <label>Monthly Income:</label>
+                <input
+                    type="text"
+                    id="monthlyIncome"
+                >
+
+                <label>Credit Score:</label>
+                <input
+                    type="text"
+                    id="creditScore"
+                >
+        </div>
+
+        <button id="checkEligibleBtn">Check Eligibility</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
